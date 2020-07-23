@@ -1,3 +1,9 @@
+body {
+  font-family: 'Lato', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
 #learn-to-meditate h1, #learn-to-meditate h2, #learn-to-meditate h3 {
   text-transform: uppercase;
   color: #707070;
@@ -227,7 +233,7 @@
 #learn-to-meditate #what-meditation-is {
   max-width: 1160px;
   margin: auto;
-  padding-top: 3rem;
+  padding-top: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
