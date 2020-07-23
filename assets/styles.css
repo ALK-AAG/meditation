@@ -540,6 +540,14 @@ body {
 
 #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container {
   margin-right: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container .number {
@@ -551,6 +559,8 @@ body {
 #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container .pb-line {
   border: solid .5px #ef3340;
   opacity: 0.3;
+  height: 18px;
+  margin-top: 2px;
 }
 
 #learn-to-meditate #meditation-benefits .pb-container-flex .pb-text-bottom h3 {
@@ -1799,7 +1809,6 @@ body {
     width: 100%;
     padding-left: 0;
     width: 317px;
-    padding-left: 25px;
   }
   #learn-to-meditate #meditation-tips .guided-meditation .ebook-text h3 {
     font-size: 20px;

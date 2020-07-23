@@ -383,6 +383,9 @@ body {
                 }
                 .number-container {
                     margin-right: 34px;
+                    width: 34px;
+                    display: flex;
+                    flex-direction: row;
                     .number {
                         margin-right: 8px;
                         font-size: 20px;
@@ -391,6 +394,8 @@ body {
                     .pb-line {
                         border: solid .5px #ef3340;
                         opacity: 0.3;
+                        height: 18px;
+                        margin-top: 2px;
                     }
                 }
             }
@@ -465,7 +470,6 @@ body {
                 font-weight: 800;
             }
             .bens-quote {
-                //padding-left: 8rem;
                 color: white;
                 .quotation-marks {
                     font-size: 68px;
@@ -906,10 +910,6 @@ body {
             padding-right: 20px;
             padding-left: 20px;
         }
-        
-        h2 {
-            //margin-bottom: 0;
-        }
         .primary-paragraph {
             width: 100%;
         }
@@ -1015,11 +1015,6 @@ body {
                     padding-left: 3rem;
                     padding-right: 3rem;
                 }
-                // @media (min-width: 320px) and (max-width: 425px)  { 
-                //     padding-right: 20px;
-                //     padding-left: 20px;
-                // }
-                
                 .text {
                     margin-top: 0;
                     p {
@@ -1038,7 +1033,6 @@ body {
                         margin-right: 38px;
                         border: solid 1px #707070;
                         opacity: 0.23;
-                        //height: 349px;
                         height: 96%;
                         align-self: center;
                     }
@@ -1239,9 +1233,6 @@ body {
     #learn-to-meditate #what-meditation-is {
         padding-top: 0;
     }
-    #learn-to-meditate h2 {
-        //margin-bottom: 0;
-    }
     #learn-to-meditate #what-meditation-is .box .text {
         display: flex;
         flex-direction: column;
@@ -1337,7 +1328,6 @@ body {
         width: 100%;
         padding-left: 0;
         width: 317px;
-        padding-left: 25px;
     }
 
     #learn-to-meditate #meditation-tips .guided-meditation .ebook-text h3 {
@@ -1387,8 +1377,6 @@ body {
     #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
        width: 80%;
        margin: 0 auto;
-        // padding-right: 43px;
-        //padding-left: 43px;
     }
     #learn-to-meditate #med-techniques .pb-container-flex .pb-container {
         padding-bottom: 18px;
