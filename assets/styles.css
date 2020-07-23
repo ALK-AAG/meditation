@@ -1962,4 +1962,8 @@
     margin-top: -11rem;
   }
 }
+
+img {
+  display: block;
+}
 /*# sourceMappingURL=styles.css.map */
