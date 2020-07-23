@@ -1,0 +1,1965 @@
+#learn-to-meditate h1, #learn-to-meditate h2, #learn-to-meditate h3 {
+  text-transform: uppercase;
+  color: #707070;
+  margin-bottom: 0;
+}
+
+#learn-to-meditate h1 {
+  margin-bottom: 1rem;
+}
+
+#learn-to-meditate h4 {
+  margin-bottom: 0;
+}
+
+#learn-to-meditate a {
+  color: #707070;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#learn-to-meditate a:hover {
+  color: #ef3340;
+}
+
+#learn-to-meditate h2 {
+  font-size: 35px;
+  margin-bottom: 0;
+}
+
+#learn-to-meditate p {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #5c5c5c;
+  margin-top: 6px;
+}
+
+#learn-to-meditate #ben-decker-img {
+  width: 100%;
+}
+
+#learn-to-meditate #ben-decker-img .ben-decker-image {
+  width: 100vw;
+}
+
+#learn-to-meditate #ben-decker-img .ben-decker-img-sm {
+  display: none;
+}
+
+#learn-to-meditate #learn-to-meditate-intro {
+  max-width: 1160px;
+  margin: auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #learn-to-meditate-intro {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #learn-to-meditate-intro {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #learn-to-meditate-intro h1 {
+  font-size: 80px;
+  font-weight: 300;
+  color: #707070;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  #learn-to-meditate #learn-to-meditate-intro h1 {
+    font-size: 50px;
+  }
+}
+
+#learn-to-meditate #learn-to-meditate-intro h1 span {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  #learn-to-meditate #learn-to-meditate-intro h1 span {
+    font-size: 70px;
+  }
+}
+
+#learn-to-meditate #learn-to-meditate-intro h2 {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+#learn-to-meditate #meditate-education {
+  max-width: 1160px;
+  margin: auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #meditate-education {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #meditate-education {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #meditate-education .meditate-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex.flex-modifier {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex img {
+    display: block !important;
+    width: 100%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex #bg-screen {
+    display: none !important;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex #sm-screen {
+    display: block !important;
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditate-education .meditate-flex .pr {
+  margin-right: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex .pr {
+    margin-right: 0px;
+  }
+}
+
+#learn-to-meditate #meditate-education .meditate-flex div {
+  width: 48%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditate-education .meditate-flex div {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditate-education .meditate-flex div h3 {
+  color: #ef3340;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+#learn-to-meditate #expert-ben-decker {
+  max-width: 1160px;
+  margin: auto;
+  padding-top: 3rem;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #expert-ben-decker {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #expert-ben-decker {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #expert-ben-decker .expert-div-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#learn-to-meditate #expert-ben-decker .expert-div-flex .pr {
+  padding-right: 2rem;
+}
+
+#learn-to-meditate #expert-ben-decker .expert-div-flex .pr img {
+  width: 100%;
+}
+
+#learn-to-meditate #expert-ben-decker .expert-div-flex div {
+  width: 48%;
+}
+
+#learn-to-meditate #what-meditation-is {
+  max-width: 1160px;
+  margin: auto;
+  padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #what-meditation-is {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #what-meditation-is {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #what-meditation-is .meditation-explanation-section .meditation-explanation {
+  position: relative;
+  z-index: 3;
+  -webkit-transform: translate(50%, -50%);
+          transform: translate(50%, -50%);
+}
+
+#learn-to-meditate #what-meditation-is .meditation-explanation-section .cloud-image {
+  width: 1160px;
+  position: absolute;
+  z-index: -1;
+}
+
+#learn-to-meditate #what-meditation-is .meditation-explanation-section .cloud-image img {
+  margin: 0 auto;
+  display: block;
+}
+
+#learn-to-meditate #what-meditation-is .box {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#learn-to-meditate #what-meditation-is .box .clouds-sm {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #what-meditation-is .box img {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #what-meditation-is .box .text {
+  position: absolute;
+  z-index: 999;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  top: 27%;
+  text-align: center;
+  width: 73%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#learn-to-meditate #what-meditation-is .box .text .pr {
+  margin-right: 1rem;
+}
+
+#learn-to-meditate #what-meditation-is .box .text h3, #learn-to-meditate #what-meditation-is .box .text h4 {
+  margin: 0;
+}
+
+#learn-to-meditate #what-meditation-is .box .text h3 {
+  color: #ef3340;
+  font-size: 49px;
+}
+
+#learn-to-meditate #what-meditation-is .box .text h4 {
+  color: #5c5c5c;
+  font-size: 20px;
+  font-weight: normal;
+}
+
+#learn-to-meditate #what-meditation-is .box .text .line {
+  background-color: #707070;
+  height: 67px;
+  width: 1px;
+  margin-top: 10px;
+  margin-right: 1rem;
+}
+
+#learn-to-meditate #what-meditation-is .box .text .exercise-text {
+  padding-top: 6px;
+  font-size: 33px;
+  color: #5c5c5c;
+  text-align: left;
+}
+
+#learn-to-meditate #video {
+  margin-top: 50px;
+  width: 100vw;
+  height: 100%;
+}
+
+#learn-to-meditate #video iframe {
+  width: 100vw;
+  height: calc(100vw/1.77);
+}
+
+#learn-to-meditate #video .contained-text {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #video .contained-text {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #video .contained-text {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #video .contained-text .bens-quote {
+  padding-left: 8rem;
+}
+
+#learn-to-meditate #video .contained-text .bens-quote .quotation-marks {
+  font-size: 68px;
+  font-weight: normal;
+  color: #707070;
+  font-family: Waseem;
+  height: 44px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+#learn-to-meditate #video .contained-text .bens-quote .quotation-marks span {
+  padding-top: 1rem;
+  -webkit-transform: translate3d(3px, -8px, 0px);
+          transform: translate3d(3px, -8px, 0px);
+  position: absolute;
+}
+
+#learn-to-meditate #video .contained-text .bens-quote .quote {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #707070;
+  margin: 0;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #video .contained-text .bens-quote .quote {
+    font-size: 25px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits {
+  max-width: 1160px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #meditation-benefits {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .line {
+  width: 100%;
+  height: 0;
+  opacity: 0.23;
+  border: solid 1px #707070;
+  margin-bottom: 60px;
+  margin-top: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #meditation-benefits .line {
+    display: none;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .physical-benefits {
+  margin-bottom: 60px;
+}
+
+#learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .img {
+    margin: 0 auto;
+    padding-bottom: 18px;
+    padding-right: 0px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .img img {
+  width: 46px;
+  padding-right: 20.7px;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .img img {
+    width: 103px;
+    padding-right: 0px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .title {
+    border-top: solid 1px #c7c7c7;
+    padding-top: 18px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .title h3 {
+  margin: 0;
+}
+
+#learn-to-meditate #meditation-benefits .pb-container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-benefits .pb-container-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .pb-container-flex .pb-container {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 3rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container {
+  margin-right: 34px;
+}
+
+#learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container .number {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #ef3340;
+}
+
+#learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container .pb-line {
+  border: solid .5px #ef3340;
+  opacity: 0.3;
+}
+
+#learn-to-meditate #meditation-benefits .pb-container-flex .pb-text-bottom h3 {
+  margin: 0;
+  color: #ef3340;
+}
+
+#learn-to-meditate #meditation-benefits-becker .container {
+  position: relative;
+  margin-top: -21rem;
+  z-index: -1;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-benefits-becker .container {
+    margin-top: -5rem;
+  }
+}
+
+#learn-to-meditate #meditation-benefits-becker .container .clouds-bg {
+  width: 100vw;
+  height: 2689px;
+}
+
+@media (min-width: 320px) and (max-width: 1440px) {
+  #learn-to-meditate #meditation-benefits-becker .container .clouds-bg {
+    width: auto;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits-becker .container .clouds-bg {
+    width: auto;
+  }
+}
+
+#learn-to-meditate #meditation-benefits-becker .container .clouds-sm {
+  display: none;
+}
+
+@media (min-width: 321px) and (max-width: 375px) {
+  #learn-to-meditate #meditation-benefits-becker .container .clouds-sm {
+    height: 2135px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block {
+  position: absolute;
+  color: white;
+  top: 37%;
+  left: 0;
+  right: 0;
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-benefits-becker .text-block {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1441px) {
+  #learn-to-meditate #meditation-benefits-becker .text-block {
+    top: 32%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-benefits-becker .text-block {
+    margin-top: -25rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #meditation-benefits-becker .text-block {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block h2, #learn-to-meditate #meditation-benefits-becker .text-block p, #learn-to-meditate #meditation-benefits-becker .text-block span {
+  color: white;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block .bens-quote {
+  padding-left: 8rem;
+  color: white;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block .bens-quote .quotation-marks {
+  font-size: 68px;
+  font-weight: normal;
+  font-family: Waseem;
+  height: 44px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block .bens-quote .quotation-marks span {
+  color: white;
+  padding-top: 1rem;
+  -webkit-transform: translate3d(3px, -8px, 0px);
+          transform: translate3d(3px, -8px, 0px);
+  position: absolute;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block .bens-quote .quote {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  color: white;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block .number {
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.6;
+  margin-left: 99px;
+}
+
+#learn-to-meditate #meditation-benefits-becker .text-block .number .modifier {
+  font-weight: 300;
+}
+
+#learn-to-meditate #meditation-tips {
+  max-width: 1160px;
+  margin: auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #meditation-tips {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #meditation-tips {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #meditation-tips h3 {
+  color: #ef3340;
+  font-weight: 800;
+}
+
+#learn-to-meditate #meditation-tips .double-tip-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .double-tip-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#learn-to-meditate #meditation-tips .double-tip-section .clouds {
+  width: 48%;
+}
+
+#learn-to-meditate #meditation-tips .tips-section .tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 84%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .tips-section .tips {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditation-tips .tips-section .tips img {
+  width: 34.8px;
+  margin-right: 34px;
+}
+
+#learn-to-meditate #meditation-tips .tips-section .tips h4 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #707070;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate {
+  padding-top: 3rem;
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate h2 {
+  margin-bottom: 3rem;
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-bottom: 0;
+  }
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 3rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container {
+  margin-right: 34px;
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container .number {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #ef3340;
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container .pb-line {
+  border: solid .5px #ef3340;
+  opacity: 0.3;
+}
+
+#learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-text-bottom h3 {
+  margin: 0;
+  color: #ef3340;
+}
+
+#learn-to-meditate #meditation-tips .guided-meditation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#learn-to-meditate #meditation-tips .guided-meditation .ebook {
+  width: 48%;
+}
+
+#learn-to-meditate #meditation-tips .guided-meditation .ebook img {
+  width: 100%;
+}
+
+#learn-to-meditate #meditation-tips .guided-meditation .ebook-text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  width: 40%;
+  padding-left: 90px;
+}
+
+#learn-to-meditate #meditation-tips .guided-meditation .ebook-text h3 {
+  font-size: 25px;
+  color: #707070;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: normal;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving p {
+  margin-bottom: 2rem;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips img {
+  width: 34.8px;
+  margin-right: 34px;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips h4 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #707070;
+  text-transform: uppercase;
+  margin-top: 6px;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips p {
+  width: 90%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips p {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tips {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 49%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tips {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tips img {
+  width: 34.8px;
+  margin-right: 34px;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tips p {
+  width: 90%;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving .tips h4 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.15;
+  letter-spacing: normal;
+  color: #707070;
+  text-transform: uppercase;
+  margin-top: 6px;
+  margin-bottom: 0;
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .container {
+  position: relative;
+  margin-top: -21rem;
+  z-index: -1;
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+  width: 100vw;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+    height: 1300px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+    width: auto;
+  }
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .container .clouds-sm {
+  display: none;
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-sm {
+    height: 976px !important;
+  }
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block {
+  position: absolute;
+  color: white;
+  top: 42%;
+  left: 0;
+  right: 0;
+  width: 655px;
+  margin: 0 auto;
+}
+
+@media (min-width: 425px) and (max-width: 1024px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block {
+    top: 46%;
+  }
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block h2, #learn-to-meditate #bens-thoughts-on-meditation .text-block p, #learn-to-meditate #bens-thoughts-on-meditation .text-block span {
+  color: white;
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+@media (min-width: 425px) and (max-width: 1024px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block h2 {
+    top: 40%;
+  }
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+  color: white;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+    padding-right: 5rem;
+    padding-left: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 375px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quotation-marks {
+  font-size: 68px;
+  font-weight: normal;
+  font-family: Waseem;
+  height: 44px;
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+  color: white;
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quotation-marks span {
+  color: white;
+  padding-top: 1rem;
+  -webkit-transform: translate3d(3px, -8px, 0px);
+          transform: translate3d(3px, -8px, 0px);
+  position: absolute;
+}
+
+#learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+  font-size: 30px;
+  font-weight: normal;
+  line-height: 1.5;
+  margin: 0;
+  color: white;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 1024px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+    font-size: 20px;
+  }
+}
+
+#learn-to-meditate #med-techniques {
+  max-width: 1160px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #med-techniques {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #med-techniques {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #med-techniques h2 {
+  margin-bottom: 2rem;
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-techniques .pb-container-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex .pb-container {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 3rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-techniques .pb-container-flex .pb-container {
+    width: 100%;
+    padding-bottom: 30px;
+  }
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container {
+  padding-top: 6px;
+  margin-right: 34px;
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container .number {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #ef3340;
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container .pb-line {
+  border: solid .5px #ef3340;
+  opacity: 0.3;
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex .pb-text-bottom p {
+  margin: 0;
+}
+
+#learn-to-meditate #med-techniques .pb-container-flex .pb-text-bottom h3 {
+  margin: 0;
+  color: #ef3340;
+}
+
+#learn-to-meditate #how-long-to-meditate .container {
+  position: relative;
+  margin-top: 3rem;
+  z-index: -1;
+}
+
+#learn-to-meditate #how-long-to-meditate .container #ripped-block {
+  width: 100vw;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #how-long-to-meditate .container #ripped-block {
+    width: auto;
+  }
+}
+
+#learn-to-meditate #how-long-to-meditate .container #ripped-block-sm {
+  display: none;
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block {
+  position: absolute;
+  color: white;
+  top: 18%;
+  left: 0;
+  right: 0;
+  max-width: 1160px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #how-long-to-meditate .text-block {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+  #learn-to-meditate #how-long-to-meditate .text-block {
+    top: 7%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #how-long-to-meditate .text-block {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block .clock img {
+  width: 143px;
+  border-radius: 50%;
+  margin-right: 38px;
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block .clock .line {
+  margin-right: 38px;
+  border: solid 1px white;
+  height: 83.4px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block h2, #learn-to-meditate #how-long-to-meditate .text-block p, #learn-to-meditate #how-long-to-meditate .text-block span {
+  color: white;
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block p {
+  font-size: 20px;
+  font-weight: normal;
+  line-height: 1.5;
+  font-weight: 300;
+}
+
+#learn-to-meditate #how-long-to-meditate .text-block h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+#learn-to-meditate #med-exercises {
+  max-width: 1160px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #med-exercises {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #med-exercises {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #med-exercises h2 {
+  margin-bottom: 0;
+}
+
+#learn-to-meditate #med-exercises .primary-paragraph {
+  width: 100%;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .modifier {
+  margin-top: -3rem;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .modifier {
+    margin-top: 0rem;
+  }
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .col-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .col-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 3rem;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container {
+  padding-top: 6px;
+  margin-right: 34px;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container .number {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #ef3340;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container .pb-line {
+  border: solid .5px #ef3340;
+  opacity: 0.3;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-text-bottom a {
+  color: #707070 !important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-text-bottom a:hover {
+  color: #ef3340 !important;
+}
+
+#learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-text-bottom p {
+  margin: 0;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-container {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 3rem;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-container.modifier {
+  margin-top: -3rem;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container {
+  margin-right: 34px;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container .number {
+  margin-right: 8px;
+  font-size: 20px;
+  color: #ef3340;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container .pb-line {
+  border: solid .5px #ef3340;
+  opacity: 0.3;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-text-bottom h3 {
+  margin: 0;
+  color: #ef3340;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-text-bottom a {
+  color: #ef3340 !important;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+}
+
+#learn-to-meditate #med-exercises .pb-container-flex .pb-text-bottom a:hover {
+  color: #707070 !important;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote {
+  margin-top: 3rem;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block {
+  max-width: 1160px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #med-exercises .beckers-quote .text-block {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block .text {
+  margin-top: 0;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block .text p {
+  margin-top: 0;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block .clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block .clock img {
+  width: 244px;
+  border-radius: 50%;
+  margin-right: 38px;
+  padding-top: 6px;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block .clock .line {
+  margin-right: 38px;
+  border: solid 1px #707070;
+  opacity: 0.23;
+  height: 96%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#learn-to-meditate #med-exercises .beckers-quote .text-block h2 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+#learn-to-meditate #med-exercises .separator {
+  width: 100%;
+  height: 0;
+  opacity: 0.23;
+  border: solid 1px #707070;
+  margin-bottom: 74.8px;
+  margin-top: 74.8px;
+}
+
+#learn-to-meditate #explore {
+  max-width: 1330.8px;
+  margin: 0 auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #explore {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #explore {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #explore h2 {
+  text-align: center;
+}
+
+#learn-to-meditate #explore p {
+  text-align: center;
+}
+
+#learn-to-meditate #explore .blog-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 98px;
+  margin-bottom: 63px;
+}
+
+#learn-to-meditate #explore .blog-section .blog {
+  width: 28%;
+}
+
+#learn-to-meditate #explore .blog-section .blog img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #explore .blog-section .blog img {
+    margin-bottom: 1rem;
+  }
+}
+
+#learn-to-meditate #explore .blog-section .blog figcaption {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.15;
+  color: #707070;
+}
+
+#learn-to-meditate #product-line {
+  max-width: 1330.8px;
+  margin: 0 auto;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #product-line {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #product-line {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}
+
+#learn-to-meditate #product-line .product-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #product-line .product-container img {
+    width: 50%;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate #product-line .product-container img {
+    width: 100%;
+  }
+}
+
+#learn-to-meditate #product-line .product-container .text {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+#learn-to-meditate #product-line .product-container .text .light-text {
+  font-weight: 300;
+}
+
+#learn-to-meditate #product-line .product-container .text .link {
+  padding-top: 2rem;
+  width: 341.75px;
+}
+
+#learn-to-meditate #product-line .product-container .text .link a {
+  margin-top: 1rem;
+  background: #ef3340;
+  color: white;
+  text-decoration: none;
+  padding: 16px 88px;
+  font-size: 30px;
+  border-radius: 7px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#learn-to-meditate #product-line .product-container .text .link a:hover {
+  background: black;
+}
+
+#learn-to-meditate #product-line h2 {
+  margin: 0;
+  font-size: 45px;
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 426px) and (max-width: 1024px) {
+  #learn-to-meditate #product-line h2 {
+    font-size: 40px;
+  }
+}
+
+#learn-to-meditate #ripped-block {
+  width: 100vw;
+}
+
+#learn-to-meditate #ripped-block img {
+  width: 100%;
+  max-height: 370px;
+}
+
+@media (min-width: 1441px) and (max-width: 1800px) {
+  #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+    width: 117vw;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-exercises .pb-container-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #learn-to-meditate #med-exercises .pb-container-flex .pb-container,
+  #learn-to-meditate #med-exercises .pb-container-flex .pb-container.modifier {
+    margin-top: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+  #learn-to-meditate #med-exercises h2 {
+    margin-top: 3rem !important;
+  }
+  #learn-to-meditate #product-line .product-container {
+    padding-bottom: 2rem;
+  }
+  #learn-to-meditate #product-line h2 {
+    font-size: 25px;
+  }
+  #learn-to-meditate #product-line .product-container .text .link a {
+    padding: 14px 72px;
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 425px) {
+  #learn-to-meditate h2 {
+    font-size: 25px !important;
+  }
+  .ben-decker-image {
+    display: none;
+  }
+  .ben-decker-img-sm {
+    display: block !important;
+    width: 100vw;
+  }
+  #learn-to-meditate #learn-to-meditate-intro h1 {
+    font-size: 23px;
+    padding-top: 30px;
+  }
+  #learn-to-meditate #learn-to-meditate-intro h1 span {
+    font-size: 60px;
+  }
+  #learn-to-meditate #expert-ben-decker .expert-div-flex .pr {
+    padding-right: 0;
+    width: 100%;
+  }
+  #learn-to-meditate #expert-ben-decker .expert-div-flex {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #learn-to-meditate #expert-ben-decker .expert-div-flex div {
+    width: 100%;
+  }
+  #learn-to-meditate #what-meditation-is {
+    padding-top: 0;
+  }
+  #learn-to-meditate h2 {
+    margin-bottom: 0;
+  }
+  #learn-to-meditate #what-meditation-is .box .text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #learn-to-meditate #video {
+    margin-top: 2rem;
+  }
+  #learn-to-meditate #what-meditation-is .box .text .line {
+    height: 2px;
+    width: 85px;
+    opacity: 0.5;
+    margin-top: 19px;
+    margin-bottom: 14px;
+  }
+  #learn-to-meditate #what-meditation-is .box .text h4 {
+    text-align: initial;
+    color: #5c5c5c;
+    opacity: 0.43;
+  }
+  #learn-to-meditate #what-meditation-is .box .text .exercise-text {
+    font-size: 20px;
+  }
+  #learn-to-meditate #what-meditation-is .box img {
+    display: none !important;
+  }
+  #learn-to-meditate #what-meditation-is .box .clouds-sm {
+    position: relative;
+    display: inline-block !important;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    height: 287px;
+  }
+  #learn-to-meditate #what-meditation-is .box {
+    margin-bottom: 0;
+  }
+  #learn-to-meditate #what-meditation-is .box .text h3 {
+    font-size: 39px;
+    padding-bottom: 6px;
+  }
+  #learn-to-meditate #video .contained-text .bens-quote {
+    padding-left: 0;
+    padding-right: 43px;
+    padding-left: 43px;
+  }
+  #learn-to-meditate #video .contained-text .bens-quote .quote {
+    font-size: 20px;
+  }
+  #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .title h3 {
+    font-size: 20px;
+  }
+  #learn-to-meditate #meditation-benefits-becker .container .clouds-bg {
+    display: none;
+  }
+  #learn-to-meditate #meditation-benefits-becker .container .clouds-sm {
+    width: 100vw;
+    display: block !important;
+  }
+  #learn-to-meditate #meditation-benefits-becker .text-block h2 {
+    font-weight: 600;
+  }
+  #learn-to-meditate #meditation-benefits-becker .text-block .number {
+    margin-left: 0;
+  }
+  #learn-to-meditate #meditation-benefits-becker .text-block {
+    margin-top: -31rem;
+  }
+  #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote {
+    padding-left: 43px;
+  }
+  #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote .quote {
+    font-size: 25px;
+    margin-bottom: 1rem;
+  }
+  #learn-to-meditate #meditation-tips .double-tip-section img {
+    width: 100%;
+  }
+  #learn-to-meditate #meditation-tips .tips-section .tips h4, #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips h4 {
+    margin-top: 0;
+  }
+  #learn-to-meditate #meditation-tips .guided-meditation {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #learn-to-meditate #meditation-tips .guided-meditation .ebook {
+    width: 100%;
+  }
+  #learn-to-meditate #meditation-tips .guided-meditation .ebook-text {
+    width: 100%;
+    padding-left: 0;
+    width: 317px;
+    padding-left: 25px;
+  }
+  #learn-to-meditate #meditation-tips .guided-meditation .ebook-text h3 {
+    font-size: 20px;
+  }
+  #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container,
+  #learn-to-meditate #meditation-tips .tips-section .tips,
+  #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container,
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips,
+  #learn-to-meditate #med-techniques .pb-container-flex .pb-container,
+  #learn-to-meditate #med-exercises .primary-paragraph,
+  #learn-to-meditate #med-exercises .pb-container-flex .pb-container, #learn-to-meditate #med-exercises .pb-container-flex .pb-container.modifier {
+    padding-bottom: 1rem;
+  }
+  #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container,
+  #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container,
+  #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container,
+  #learn-to-meditate #meditation-tips .tips-section .tips img,
+  #learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container,
+  #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container,
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips img,
+  #learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container,
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container {
+    margin-right: 15px;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+    display: none;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-sm {
+    width: 100vw;
+    display: block !important;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .container {
+    margin-top: -3rem;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block {
+    top: 22%;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block h2 {
+    font-size: 20px !important;
+    font-weight: 400;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+    padding-right: 43px;
+    padding-left: 43px;
+  }
+  #learn-to-meditate #med-techniques .pb-container-flex .pb-container {
+    padding-bottom: 18px;
+  }
+  #learn-to-meditate #how-long-to-meditate .container #ripped-block {
+    display: none;
+  }
+  #learn-to-meditate #how-long-to-meditate .container #ripped-block-sm {
+    width: 100vw;
+    display: block !important;
+  }
+  #learn-to-meditate #how-long-to-meditate .text-block .clock {
+    display: none;
+  }
+  #learn-to-meditate #how-long-to-meditate .text-block {
+    top: 24%;
+  }
+  #learn-to-meditate #how-long-to-meditate .text-block h2 {
+    font-weight: 400;
+  }
+  #learn-to-meditate #med-exercises {
+    margin-top: 30px;
+  }
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .col-flex {
+    width: 100%;
+  }
+  #learn-to-meditate #med-exercises .beckers-quote .text-block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #learn-to-meditate #med-exercises .beckers-quote .text-block .clock {
+    margin: 0 auto;
+  }
+  #learn-to-meditate #med-exercises .beckers-quote .text-block .clock img {
+    margin: 0 auto;
+    margin-right: 0;
+    width: 248px;
+    margin-bottom: 2rem;
+  }
+  #learn-to-meditate #med-exercises .separator {
+    margin-bottom: 33px;
+    margin-top: 33px;
+  }
+  #learn-to-meditate #explore .blog-section {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 15px;
+  }
+  #learn-to-meditate #explore .blog-section .blog {
+    width: 100%;
+    padding-top: 3rem;
+  }
+  #learn-to-meditate #product-line .product-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #learn-to-meditate #product-line .product-container .text {
+    margin: 0 auto;
+  }
+  #learn-to-meditate #product-line .product-container .text h2 {
+    text-align: center;
+  }
+  #learn-to-meditate #product-line .product-container .text .link {
+    margin: 0 auto;
+    width: 254.75px;
+  }
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .col-flex img {
+    width: 100%;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+    font-size: 20px;
+  }
+  #learn-to-meditate #meditation-tips .meditate-while-moving .tips #modifier {
+    margin-right: 15px;
+  }
+  #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title {
+    margin-bottom: 38px;
+  }
+  #learn-to-meditate #product-line .product-container .text .light-text {
+    padding-bottom: 3px;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 320px) {
+  #learn-to-meditate #meditation-benefits-becker .container .clouds-sm {
+    width: auto;
+    height: 2598px;
+  }
+  #learn-to-meditate #video .contained-text .bens-quote {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #learn-to-meditate #what-meditation-is .box .text h3 {
+    font-size: 30px;
+  }
+  #learn-to-meditate #meditation-benefits-becker .text-block {
+    margin-top: -42rem;
+  }
+  #learn-to-meditate #meditation-tips .guided-meditation .ebook-text {
+    width: 100%;
+    padding-left: 0;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+    font-size: 20px;
+  }
+  #learn-to-meditate #how-long-to-meditate .container #ripped-block-sm {
+    height: 527px;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block {
+    top: 21%;
+  }
+  #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  #learn-to-meditate #meditation-benefits-becker .container {
+    margin-top: -11rem;
+  }
+}
+/*# sourceMappingURL=styles.css.map */

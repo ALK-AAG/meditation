@@ -1,0 +1,1495 @@
+#learn-to-meditate {
+    h1, h2, h3 {
+        text-transform: uppercase;
+        color: #707070;
+        margin-bottom: 0;
+    }
+    h1 {
+        margin-bottom: 1rem;
+    }
+    h4 {
+        margin-bottom: 0;
+    }
+    a {
+        color: #707070;
+        transition: all .2s ease-in-out;
+        &:hover {
+            color: #ef3340;
+        }
+    }
+    h2 {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    p {
+        font-size: 20px;
+        line-height: 1.5;
+        color: #5c5c5c;
+        margin-top: 6px;
+    }
+
+    #ben-decker-img {
+        width: 100%;
+        .ben-decker-image {
+            width: 100vw;
+        }
+        .ben-decker-img-sm {
+            display: none;
+        }
+    }
+
+    #learn-to-meditate-intro {
+        max-width: 1160px;
+        margin: auto;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }        
+        h1 {
+            font-size: 80px;
+            font-weight: 300;
+            color: #707070;
+            @media (min-width: 426px) and (max-width: 768px)  { 
+                font-size: 50px;
+            }
+            span {
+                font-size: 100px;
+                font-weight: bold;
+                @media (min-width: 426px) and (max-width: 768px)  { 
+                    font-size: 70px;
+                }
+            }
+        }
+        h2 {
+            font-size: 35px;
+            font-weight: bold;
+        }
+    }
+
+    #meditate-education {
+        max-width: 1160px;
+        margin: auto;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        .meditate-flex {
+            display: flex;
+            @media (min-width: 320px) and (max-width: 768px)  { 
+                flex-direction: column;
+            }
+            &.flex-modifier {
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    flex-direction: column-reverse;
+                }
+            }
+            img {
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    display: block !important;
+                    width: 100%;
+                }
+            }
+            #bg-screen {
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    display: none !important;
+                }
+            }
+            #sm-screen {
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    display: block !important;
+                    width: 100%;
+                }
+            }
+            .pr {
+                margin-right: 2rem;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    margin-right: 0px;
+                }
+            }
+            div {
+                width: 48%;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
+                }
+                h3 {
+                    color: #ef3340;
+                    font-size: 20px;
+                    font-weight: 800;
+                }
+            }
+        }
+    }
+    #expert-ben-decker {
+        max-width: 1160px;
+        margin: auto;
+        padding-top: 3rem;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        .expert-div-flex {
+            display: flex;
+            .pr {
+                padding-right: 2rem;
+                img {
+                    width: 100%;
+                }
+            }
+            div {
+                width: 48%;
+            }
+        }
+    }
+
+    #what-meditation-is {
+        max-width: 1160px;
+        margin: auto;
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        .meditation-explanation-section {
+            .meditation-explanation {
+                position: relative;
+                z-index: 3;
+                transform: translate(50%,-50%);
+            }
+            .cloud-image {
+                width: 1160px;
+                position: absolute;
+                z-index: -1;
+                img {
+                    margin: 0 auto;
+                    display: block;
+                    
+                }
+            }
+        }
+
+        .box{
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+            align-self: center;
+            .clouds-sm {
+                display: none;
+            }
+            img {
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
+                }
+            }
+            .text{
+                position: absolute;
+                z-index: 999;
+                margin: 0 auto;
+                left: 0;
+                right: 0;
+                top: 27%; 
+                text-align: center;
+                width: 73%;
+                display: flex;
+                flex-direction: row;
+                .pr {
+                    margin-right: 1rem;
+                }
+                h3, h4 {
+                    margin: 0;
+                }
+                h3 {
+                    color: #ef3340;
+                    font-size: 49px;
+                }
+                h4 {
+                    color: #5c5c5c;
+                    font-size: 20px;
+                    font-weight: normal;
+                }
+                .line {
+                    background-color: #707070;
+                    height: 67px;
+                    width: 1px;
+                    margin-top: 10px;
+                    margin-right: 1rem;
+                }
+                .exercise-text {
+                    padding-top: 6px;
+                    font-size: 33px;
+                    color: #5c5c5c;
+                    text-align: left;
+                }
+            }
+        }
+    }
+
+    #video {
+        margin-top: 50px;
+        width: 100vw;
+        height: 100%;
+        iframe {
+            width: 100vw;
+            height: calc(100vw/1.77);
+        }
+        .contained-text {
+            max-width: 1160px;
+            margin: 0 auto;
+            @media (min-width: 426px) and (max-width: 1024px)  { 
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            @media (min-width: 320px) and (max-width: 425px)  { 
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            
+            .bens-quote {
+                padding-left: 8rem;
+                .quotation-marks {
+                    font-size: 68px;
+                    font-weight: normal;
+                    color: #707070;
+                    font-family: Waseem;
+                    height: 44px;
+                    margin-top: 2rem;
+                    padding-bottom: 1rem;
+                    span {
+                        padding-top: 1rem;
+                        transform: translate3d(3px, -8px, 0px);
+                        position: absolute;
+                    }
+                }
+                .quote {
+                    font-size: 30px;
+                    font-weight: normal;
+                    line-height: 1.5;
+                    color: #707070;
+                    margin: 0;
+                    @media (min-width: 426px) and (max-width: 1024px)  { 
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+
+    #meditation-benefits {
+        max-width: 1160px;
+        margin: auto;
+        margin-top: 60px;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        .line {
+            width: 100%;
+            height: 0;
+            opacity: 0.23;
+            border: solid 1px #707070;
+            margin-bottom: 60px;
+            margin-top: 60px;
+            @media (min-width: 320px) and (max-width: 425px)  { 
+                display: none;
+            }
+        }
+
+        .physical-benefits {
+            margin-bottom: 60px;
+            .physical-benefits-title {
+                display: flex;
+                margin-bottom: 60px;
+                @media (min-width: 320px) and (max-width: 1024px)  { 
+                    flex-direction: column;
+                }
+                .img {
+                    @media (min-width: 320px) and (max-width: 1024px)  { 
+                        margin: 0 auto;
+                        padding-bottom: 18px;
+                        padding-right: 0px;
+                        
+                    }
+                    img { 
+                        width: 46px;
+                        padding-right: 20.7px;
+                        @media (min-width: 320px) and (max-width: 1024px)  { 
+                            width: 103px;
+                            padding-right: 0px;
+                        }
+                    }
+                }
+                .title {
+                    align-self: center;
+                        @media (min-width: 320px) and (max-width: 1024px)  { 
+                            border-top: solid 1px #c7c7c7;
+                            padding-top: 18px;
+                        }
+                    h3 {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+        .pb-container-flex {
+            display: flex;
+            margin-bottom: 60px;
+            @media (min-width: 320px) and (max-width: 768px)  { 
+                flex-direction: column;
+                margin-bottom: 0px;
+            }
+            .pb-container {
+                width: 49%;
+                display: flex;
+                margin-right: 3rem;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
+                }
+                .number-container {
+                    margin-right: 34px;
+                    .number {
+                        margin-right: 8px;
+                        font-size: 20px;
+                        color: #ef3340;
+                    }
+                    .pb-line {
+                        border: solid .5px #ef3340;
+                        opacity: 0.3;
+                    }
+                }
+            }
+            .pb-text-bottom {
+                h3 {
+                    margin: 0;
+                    color: #ef3340;
+                }
+            }
+        }
+    }
+
+    #meditation-benefits-becker {
+        .container {
+            position: relative;
+            margin-top: -21rem;
+            z-index: -1;
+            @media (min-width: 320px) and (max-width: 768px)  { 
+                margin-top: -5rem;
+            }
+            .clouds-bg {
+                width: 100vw;
+                height: 2689px;
+                @media (min-width: 320px) and (max-width: 1440px)  { 
+                    width: auto;
+                }
+                @media (min-width: 426px) and (max-width: 1024px)  { 
+                    width: auto;
+                }
+            }
+            .clouds-sm {
+                display: none;
+                @media (min-width: 321px) and (max-width: 375px)  { 
+                    height: 2135px;
+                }
+            }
+        }
+        .text-block {
+            position: absolute;
+            color: white;
+            top: 37%;
+            left: 0;
+            right: 0;
+            max-width: 1160px;
+            margin: 0 auto;
+            @media (min-width: 426px) and (max-width: 1024px)  { 
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            @media (min-width: 769px) and (max-width: 1441px)  { 
+                top: 32%;
+            }
+            @media (min-width: 320px) and (max-width: 768px)  { 
+                margin-top: -25rem;
+            }
+            @media (min-width: 320px) and (max-width: 425px)  { 
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            
+            h2, p, span {
+                color: white;
+            }
+            p {
+                font-size: 20px;
+                font-weight: normal;
+                line-height: 1.5;
+                font-weight: 300;
+            }
+            h2 {
+                font-size: 25px;
+                font-weight: 800;
+            }
+            .bens-quote {
+                padding-left: 8rem;
+                color: white;
+                .quotation-marks {
+                    font-size: 68px;
+                    font-weight: normal;
+                    font-family: Waseem;
+                    height: 44px;
+                    margin-top: 2rem;
+                    padding-bottom: 1rem;
+                    color: white;
+                    span {
+                        color: white;
+                        padding-top: 1rem;
+                        transform: translate3d(3px, -8px, 0px);
+                        position: absolute;
+                    }
+                }
+                .quote {
+                    font-size: 30px;
+                    font-weight: normal;
+                    line-height: 1.5;
+                    margin: 0;
+                    color: white;
+                }
+            }
+            .number {
+                font-size: 25px;
+                font-weight: 500;
+                line-height: 1.6;
+                margin-left: 99px;
+                .modifier {
+                    font-weight: 300;
+                }
+            }
+        }
+    }
+
+    #meditation-tips {
+        max-width: 1160px;
+        margin: auto;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        h3 {
+            color: #ef3340;
+            font-weight: 800;
+        }
+        .double-tip-section {
+            display: flex;
+            margin-top: 50px;
+            @media (min-width: 320px) and (max-width: 768px)  { 
+                flex-direction: column;
+            }
+            .clouds {
+                width: 48%;
+            }
+        }
+        .tips-section {
+            .tips {
+                display: flex;
+                width: 84%;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
+                }
+                img {
+                    width: 34.8px;
+                    margin-right: 34px;
+                }
+                h4 {
+                    font-size: 20px;
+                    font-weight: 800;
+                    line-height: 1.15;
+                    letter-spacing: normal;
+                    color: #707070;
+                    text-transform: uppercase;
+                    margin-top: 6px;
+                }
+            }
+        }
+        .how-to-meditate {
+            padding-top: 3rem;
+            h2 {
+                margin-bottom: 3rem;
+            }
+            .pb-container-flex {
+                display: flex;
+                margin-bottom: 60px;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    flex-direction: column;
+                    margin-bottom: 0;
+                }
+                .pb-container {
+                    width: 49%;
+                    display: flex;
+                    margin-right: 3rem;
+                    @media (min-width: 320px) and (max-width: 768px)  { 
+                        width: 100%;
+                        margin-right: 0;
+                    }
+                    .number-container {
+                        margin-right: 34px;
+                        .number {
+                            margin-right: 8px;
+                            font-size: 20px;
+                            color: #ef3340;
+                        }
+                        .pb-line {
+                            border: solid .5px #ef3340;
+                            opacity: 0.3;
+                        }
+                    }
+                }
+                .pb-text-bottom {
+                    h3 {
+                        margin: 0;
+                        color: #ef3340;
+                    }
+                }
+            }
+        }
+        .guided-meditation {
+            display: flex;
+            flex-direction: row;
+            .ebook {
+                width: 48%;
+                img {
+                    width: 100%;
+                }
+            }
+            .ebook-text {
+                align-self: center;
+                width: 40%;
+                padding-left: 90px;
+                h3 {
+                    font-size: 25px;
+                    color: #707070;
+                    font-weight: 700;
+                    line-height: 1.2;
+                    letter-spacing: normal;
+                }
+            }
+        }
+        .meditate-while-moving {
+            p {
+                margin-bottom: 2rem;
+            }
+            .tip-flex-section {
+                display: flex;
+                flex-direction: row;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    flex-direction: column;
+                }
+                .tips {
+                    display: flex;
+                    width: 49%;
+                    @media (min-width: 320px) and (max-width: 768px)  { 
+                        width: 100%;
+                    }
+                    img {
+                        width: 34.8px;
+                        margin-right: 34px;
+                    }
+                    h4 {
+                        font-size: 20px;
+                        font-weight: 800;
+                        line-height: 1.15;
+                        letter-spacing: normal;
+                        color: #707070;
+                        text-transform: uppercase;
+                        margin-top: 6px;
+                    }
+                    p {
+                        width: 90%;
+                        @media (min-width: 320px) and (max-width: 768px)  { 
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+            .tips {
+                display: flex;
+                width: 49%;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
+                }
+                img {
+                    width: 34.8px;
+                    margin-right: 34px;
+                }
+                p {
+                    width: 90%;
+                }
+                h4 {
+                    font-size: 20px;
+                    font-weight: 800;
+                    line-height: 1.15;
+                    letter-spacing: normal;
+                    color: #707070;
+                    text-transform: uppercase;
+                    margin-top: 6px;
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
+
+    #bens-thoughts-on-meditation {
+        .container {
+            position: relative;
+            margin-top: -21rem;
+            z-index: -1;
+            .clouds-bg {
+                width: 100vw;
+                @media (min-width: 768px) and (max-width: 1024px)  { 
+                    height: 1300px;
+                }
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: auto;
+                }
+            }
+            .clouds-sm {
+                display: none;
+                @media (min-width: 320px) and (max-width: 375px)  { 
+                    height: 976px !important;
+                }
+            }
+        }
+        .text-block {
+            position: absolute;
+            color: white;
+            top: 42%;
+            left: 0;
+            right: 0;
+            width: 655px;
+            margin: 0 auto;
+            @media (min-width: 425px) and (max-width: 1024px)  { 
+                top: 46%;
+            }
+            h2, p, span {
+                color: white;
+            }
+            p {
+                font-size: 20px;
+                font-weight: normal;
+                line-height: 1.5;
+                font-weight: 300;
+            }
+            h2 {
+                font-size: 25px;
+                font-weight: 800;
+                @media (min-width: 425px) and (max-width: 1024px)  { 
+                    top: 40%;
+                }
+            }
+            .bens-quote {
+                color: white;
+                @media (min-width: 426px) and (max-width: 768px)  { 
+                    padding-right: 5rem;
+                    padding-left: 3rem;
+                }
+                @media (min-width: 320px) and (max-width: 375px)  { 
+                    padding-right: 20px;
+                    padding-left: 20px;
+                }
+                .quotation-marks {
+                    font-size: 68px;
+                    font-weight: normal;
+                    font-family: Waseem;
+                    height: 44px;
+                    margin-top: 2rem;
+                    padding-bottom: 1rem;
+                    color: white;
+                    
+                    span {
+                        color: white;
+                        padding-top: 1rem;
+                        transform: translate3d(3px, -8px, 0px);
+                        position: absolute;
+                    }
+                }
+                .quote {
+                    font-size: 30px;
+                    font-weight: normal;
+                    line-height: 1.5;
+                    margin: 0;
+                    color: white;
+                    @media (min-width: 1025px) and (max-width: 1440px)  { 
+                        font-size: 25px;
+                    }
+                    @media (min-width: 425px) and (max-width: 1024px)  { 
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+
+    #med-techniques {
+        max-width: 1160px;
+        margin: auto;
+        margin-top: 60px;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        h2 {
+            margin-bottom: 2rem;
+        }
+        .pb-container-flex {
+            display: flex;
+            @media (min-width: 320px) and (max-width: 768px)  { 
+                flex-direction: column;
+            }
+            .pb-container {
+                width: 49%;
+                display: flex;
+                margin-right: 3rem;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
+                    padding-bottom: 30px;
+                }
+                .number-container {
+                    padding-top: 6px;
+                    margin-right: 34px;
+                    .number {
+                        margin-right: 8px;
+                        font-size: 20px;
+                        color: #ef3340;
+                    }
+                    .pb-line {
+                        border: solid .5px #ef3340;
+                        opacity: 0.3;
+                    }
+                }
+            }
+            .pb-text-bottom {
+                p {
+                    margin: 0;
+                }
+                h3 {
+                    margin: 0;
+                    color: #ef3340;
+                }
+            }
+        }
+    
+    }
+
+    #how-long-to-meditate {
+        .container {
+            position: relative;
+            margin-top: 3rem;
+            z-index: -1;
+            #ripped-block {
+                width: 100vw;
+                @media (min-width: 426px) and (max-width: 1024px)  { 
+                   width: auto;
+                }
+            }
+            #ripped-block-sm {
+                display: none;
+            }
+        }
+        .text-block {
+            position: absolute;
+            color: white;
+            top: 18%;
+            left: 0;
+            right: 0;
+            max-width: 1160px;
+            margin: 0 auto;
+            display: flex;
+            @media (min-width: 426px) and (max-width: 1024px)  { 
+                padding-left: 3rem;
+                padding-right: 3rem;
+            }
+            @media (min-width: 426px) and (max-width: 768px)  { 
+                top: 7%;
+             }
+             @media (min-width: 320px) and (max-width: 425px)  { 
+                padding-right: 20px;
+                padding-left: 20px;
+            }
+            
+            .clock {
+                display: flex;
+                align-self: center;
+                img {
+                    width: 143px;
+                    border-radius: 50%;
+                    margin-right: 38px;
+                }
+                .line {
+                    margin-right: 38px;
+                    border: solid 1px white;
+                    height: 83.4px;
+                    align-self: center;
+                }
+            }
+            h2, p, span {
+                color: white;
+            }
+            p {
+                font-size: 20px;
+                font-weight: normal;
+                line-height: 1.5;
+                font-weight: 300;
+            }
+            h2 {
+                font-size: 25px;
+                font-weight: 800;
+            }
+        }
+    }
+
+    #med-exercises {
+        max-width: 1160px;
+        margin: auto;
+        margin-top: 60px;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        h2 {
+            margin-bottom: 0;
+        }
+        .primary-paragraph {
+            width: 100%;
+        }
+        .med-exercises {
+            .pb-container-flex {
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 60px;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    flex-direction: column;
+                }
+                .modifier {
+                    margin-top: -3rem;
+                    @media (min-width: 320px) and (max-width: 768px)  { 
+                        margin-top: 0rem;
+                    }
+                }
+                .col-flex {
+                    display: flex;
+                    @media (min-width: 320px) and (max-width: 768px)  { 
+                        flex-direction: column;
+                    }
+                }
+                .pb-container {
+                    display: flex;
+                    margin-right: 3rem;
+                    margin-bottom: 1rem;
+                    width: 100%;
+                    .number-container {
+                        padding-top: 6px;
+                        margin-right: 34px;
+                        .number {
+                            margin-right: 8px;
+                            font-size: 20px;
+                            color: #ef3340;
+                        }
+                        .pb-line {
+                            border: solid .5px #ef3340;
+                            opacity: 0.3;
+                        }
+                    }
+                }
+                .pb-text-bottom {
+                    a {
+                        color: #707070 !important;
+                        transition: all .2s ease-in-out;
+                        &:hover {
+                            color: #ef3340 !important;
+                        }
+                    }
+                    p {
+                        margin: 0;
+                    }
+                }
+            }
+        }
+
+        .pb-container-flex {
+            display: flex;
+            margin-bottom: 10px;
+            .pb-container {
+                width: 49%;
+                display: flex;
+                margin-right: 3rem;
+                &.modifier {
+                    margin-top: -3rem;
+                }
+                .number-container {
+                    margin-right: 34px;
+                    .number {
+                        margin-right: 8px;
+                        font-size: 20px;
+                        color: #ef3340;
+                    }
+                    .pb-line {
+                        border: solid .5px #ef3340;
+                        opacity: 0.3;
+                    }
+                }
+            }
+            .pb-text-bottom {
+                h3 {
+                    margin: 0;
+                    color: #ef3340;
+                }
+                a {
+                    color: #ef3340 !important;
+                    transition: all .2s ease-in-out;
+                    &:hover {
+                        color: #707070 !important;
+                    }
+                }
+            }
+        }
+        
+        .beckers-quote {
+            margin-top: 3rem;
+            .text-block {
+                max-width: 1160px;
+                margin: 0 auto;
+                display: flex;
+                @media (min-width: 426px) and (max-width: 1024px)  { 
+                    padding-left: 3rem;
+                    padding-right: 3rem;
+                }
+                // @media (min-width: 320px) and (max-width: 425px)  { 
+                //     padding-right: 20px;
+                //     padding-left: 20px;
+                // }
+                
+                .text {
+                    margin-top: 0;
+                    p {
+                        margin-top: 0;
+                    }
+                }
+                .clock {
+                    display: flex;
+                    img {
+                        width: 244px;
+                        border-radius: 50%;
+                        margin-right: 38px;
+                        padding-top: 6px;
+                    }
+                    .line {
+                        margin-right: 38px;
+                        border: solid 1px #707070;
+                        opacity: 0.23;
+                        //height: 349px;
+                        height: 96%;
+                        align-self: center;
+                    }
+                }
+                p {
+                    font-size: 20px;
+                    line-height: 1.5;
+                }
+                h2 {
+                    font-size: 25px;
+                    font-weight: 800;
+                }
+            }
+        }
+        
+        .separator {
+            width: 100%;
+            height: 0;
+            opacity: 0.23;
+            border: solid 1px #707070;
+            margin-bottom: 74.8px;
+            margin-top: 74.8px;
+        }
+    }
+
+    #explore {
+        max-width: 1330.8px;
+        margin: 0 auto;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }
+        
+        h2 {
+            text-align: center;
+        }
+        p {
+            text-align: center;
+        }
+        .blog-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 98px;
+            margin-bottom: 63px;
+            .blog {
+                width: 28%;
+                img {
+                    width: 100%;
+                    margin-bottom: 2rem;
+                    @media (min-width: 320px) and (max-width: 425px)  { 
+                        margin-bottom: 1rem;
+                    }
+                }
+                figcaption {
+                    font-size: 20px;
+                    font-weight: 600;
+                    line-height: 1.15;
+                    color: #707070;
+                }
+            }
+        }
+    }
+
+    #product-line {
+        max-width: 1330.8px;
+        margin: 0 auto;
+        @media (min-width: 426px) and (max-width: 1024px)  { 
+            padding-left: 3rem;
+            padding-right: 3rem;
+        }
+        @media (min-width: 320px) and (max-width: 425px)  { 
+            padding-right: 20px;
+            padding-left: 20px;
+        }        
+        .product-container {
+            display: flex;
+            flex-direction: row;
+            img {
+                @media (min-width: 426px) and (max-width: 1024px)  { 
+                    width: 50%;
+                }
+                @media (min-width: 320px) and (max-width: 425px)  { 
+                    width: 100%;
+                }                
+            }
+            .text {
+                align-self: center;
+                .light-text {
+                    font-weight: 300;
+                }
+                .link {
+                    padding-top: 2rem;
+                    width: 341.75px;
+                    a {
+                        margin-top: 1rem;
+                        background: #ef3340;
+                        color: white;
+                        text-decoration: none;
+                        padding:  16px 88px;
+                        font-size: 30px;
+                        border-radius: 7px;
+                        transition: all .3s ease-in-out;
+                        &:hover {
+                            background: black;
+                        }
+                    }
+                }
+            }
+        }
+        h2 {
+            margin: 0;
+            font-size: 45px;
+            padding-bottom: 1rem;
+            @media (min-width: 426px) and (max-width: 1024px)  { 
+                font-size: 40px;
+            }
+        }
+    }
+
+    #ripped-block {
+        width: 100vw;
+        img {
+            width: 100%;
+            max-height: 370px;
+        }
+    }
+}
+
+@media (min-width: 1441px) and (max-width: 1800px)  { 
+    #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+        width: 117vw;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 768px)  { 
+    #learn-to-meditate #med-exercises .pb-container-flex {
+        flex-direction: column;
+    }
+    #learn-to-meditate #med-exercises .pb-container-flex .pb-container, 
+    #learn-to-meditate #med-exercises .pb-container-flex .pb-container.modifier {
+        margin-top: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    #learn-to-meditate #med-exercises h2 {
+        margin-top: 3rem !important;
+    }
+
+    #learn-to-meditate #product-line .product-container {
+        padding-bottom: 2rem;
+    }
+    #learn-to-meditate #product-line h2 {
+        font-size: 25px;
+    }
+    #learn-to-meditate #product-line .product-container .text .link a {
+        padding: 14px 72px;
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 425px)  { 
+    #learn-to-meditate h2 {
+        font-size: 25px !important;
+    }
+    .ben-decker-image {
+        display: none;
+    }
+    .ben-decker-img-sm {
+        display: block !important;
+        width: 100vw;
+    }
+    #learn-to-meditate #learn-to-meditate-intro h1 {
+        font-size: 23px;
+        padding-top: 30px;
+    }
+    #learn-to-meditate #learn-to-meditate-intro h1 span {
+        font-size: 60px;
+    }
+    #learn-to-meditate #expert-ben-decker .expert-div-flex .pr {
+        padding-right: 0;
+        width: 100%;
+    }
+    #learn-to-meditate #expert-ben-decker .expert-div-flex {
+        flex-direction: column;
+    }
+    #learn-to-meditate #expert-ben-decker .expert-div-flex div {
+        width: 100%;
+    }
+    #learn-to-meditate #what-meditation-is {
+        padding-top: 0;
+    }
+    #learn-to-meditate h2 {
+        margin-bottom: 0;
+    }
+    #learn-to-meditate #what-meditation-is .box .text {
+        display: flex;
+        flex-direction: column;
+    }
+    #learn-to-meditate #video {
+        margin-top: 2rem;
+    }
+    #learn-to-meditate #what-meditation-is .box .text .line {
+        height: 2px;
+        width: 85px;
+        opacity: 0.5;
+        margin-top: 19px;
+        margin-bottom: 14px;
+    }
+    #learn-to-meditate #what-meditation-is .box .text h4 {
+        text-align: initial;
+        color: #5c5c5c;
+        opacity: 0.43;
+    }
+    
+    #learn-to-meditate #what-meditation-is .box .text .exercise-text {
+        font-size: 20px;
+    }
+
+    #learn-to-meditate #what-meditation-is .box img {
+        display: none !important;
+    }
+
+    #learn-to-meditate #what-meditation-is .box .clouds-sm {
+        position: relative;
+        display: inline-block !important;
+        -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+        height: 287px;
+    }
+    #learn-to-meditate #what-meditation-is .box {
+        margin-bottom: 0;
+    }
+    #learn-to-meditate #what-meditation-is .box .text h3 {
+        font-size: 39px;
+        padding-bottom: 6px;
+    }
+    #learn-to-meditate #video .contained-text .bens-quote {
+        padding-left: 0;
+        padding-right: 43px;
+        padding-left: 43px;
+    }
+    #learn-to-meditate #video .contained-text .bens-quote .quote {
+        font-size: 20px;
+    }
+    #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title .title h3 {
+        font-size: 20px;
+    }
+
+    #learn-to-meditate #meditation-benefits-becker .container .clouds-bg {
+        display: none;
+    }
+
+    #learn-to-meditate #meditation-benefits-becker .container .clouds-sm {
+        width: 100vw;
+        display: block !important;
+    }
+    #learn-to-meditate #meditation-benefits-becker .text-block h2 {
+        font-weight: 600;
+    }
+    #learn-to-meditate #meditation-benefits-becker .text-block .number {
+        margin-left: 0;
+    }
+    #learn-to-meditate #meditation-benefits-becker .text-block {
+        margin-top: -31rem;
+    }
+    #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote {
+        padding-left: 43px;
+    }
+    #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote .quote {
+        font-size: 25px;
+        margin-bottom: 1rem;
+    }
+    #learn-to-meditate #meditation-tips .double-tip-section img {
+        width: 100%;
+    }
+    #learn-to-meditate #meditation-tips .tips-section .tips h4, #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips h4 {
+        margin-top: 0;
+    }
+    #learn-to-meditate #meditation-tips .guided-meditation {
+        flex-direction: column;
+    }
+    #learn-to-meditate #meditation-tips .guided-meditation .ebook {
+        width: 100%;
+    }
+    
+    #learn-to-meditate #meditation-tips .guided-meditation .ebook-text {
+        width: 100%;
+        padding-left: 0;
+        width: 317px;
+        padding-left: 25px;
+    }
+
+    #learn-to-meditate #meditation-tips .guided-meditation .ebook-text h3 {
+        font-size: 20px;
+    }
+    #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container,
+    #learn-to-meditate #meditation-tips .tips-section .tips,
+    #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container,
+    #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips,
+    #learn-to-meditate #med-techniques .pb-container-flex .pb-container,
+    #learn-to-meditate #med-exercises .primary-paragraph,
+    #learn-to-meditate #med-exercises .pb-container-flex .pb-container, #learn-to-meditate #med-exercises .pb-container-flex .pb-container.modifier {
+        padding-bottom: 1rem;
+    }
+    #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container, 
+    #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container,
+    #learn-to-meditate #meditation-benefits .pb-container-flex .pb-container .number-container,
+    #learn-to-meditate #meditation-tips .tips-section .tips img,
+    #learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container,
+    #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container,
+    #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section .tips img,
+    #learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container,
+    #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container {
+        margin-right: 15px;
+    }
+
+    #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-bg {
+        display: none;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .container .clouds-sm {
+        width: 100vw;
+        display: block !important;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .container {
+        margin-top: -3rem;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block {
+        top: 22%;
+        padding-left: 20px;
+        padding-right: 20px;
+        width: auto;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block h2 {
+        font-size: 20px !important;
+        font-weight: 400;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+        padding-right: 43px;
+        padding-left: 43px;
+    }
+    #learn-to-meditate #med-techniques .pb-container-flex .pb-container {
+        padding-bottom: 18px;
+    }
+    #learn-to-meditate #how-long-to-meditate .container #ripped-block {
+        display: none;
+    }
+
+    #learn-to-meditate #how-long-to-meditate .container #ripped-block-sm {
+        width: 100vw;
+        display: block !important;
+    }
+    #learn-to-meditate #how-long-to-meditate .text-block .clock {
+        display: none;
+    }
+    #learn-to-meditate #how-long-to-meditate .text-block {
+        top: 24%;
+    }
+    #learn-to-meditate #how-long-to-meditate .text-block h2 {
+        font-weight: 400;
+    }
+    #learn-to-meditate #med-exercises {
+        margin-top: 30px;
+    }
+    #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .col-flex {
+        width: 100%;
+    }
+    #learn-to-meditate #med-exercises .beckers-quote .text-block {
+        flex-direction: column;
+    }
+    #learn-to-meditate #med-exercises .beckers-quote .text-block .clock {
+        margin: 0 auto;
+    }
+    #learn-to-meditate #med-exercises .beckers-quote .text-block .clock img {
+        margin: 0 auto;
+        margin-right: 0;
+        width: 248px;
+        margin-bottom: 2rem;
+    }
+    #learn-to-meditate #med-exercises .separator {
+        margin-bottom: 33px;
+        margin-top: 33px;
+    }
+    
+    #learn-to-meditate #explore .blog-section {
+        flex-direction: column;
+        margin-top: 15px;
+    }
+    #learn-to-meditate #explore .blog-section .blog {
+        width: 100%;
+        padding-top: 3rem;
+
+    }
+    #learn-to-meditate #product-line .product-container {
+        flex-direction: column;
+    }
+    #learn-to-meditate #product-line .product-container .text {
+        margin: 0 auto;
+    }
+    #learn-to-meditate #product-line .product-container .text h2 {
+        text-align: center;
+    }
+    #learn-to-meditate #product-line .product-container .text .link {
+        margin: 0 auto;
+        width: 254.75px;
+    }
+    #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .col-flex img {
+        width: 100%;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+        font-size: 20px;
+    }
+    #learn-to-meditate #meditation-tips .meditate-while-moving .tips #modifier {
+        margin-right: 15px;
+    }
+    #learn-to-meditate #meditation-benefits .physical-benefits .physical-benefits-title {
+        margin-bottom: 38px;
+    }
+    #learn-to-meditate #product-line .product-container .text .light-text {
+        padding-bottom: 3px;
+    }
+}
+
+
+@media (min-width: 0px) and (max-width: 320px)  { 
+    #learn-to-meditate #meditation-benefits-becker .container .clouds-sm {
+        width: auto;
+        height: 2598px;
+    }
+    #learn-to-meditate #video .contained-text .bens-quote {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #learn-to-meditate #what-meditation-is .box .text h3 {
+        font-size: 30px;
+    }
+    #learn-to-meditate #meditation-benefits-becker .text-block {
+        margin-top: -42rem;
+    }
+    #learn-to-meditate #meditation-tips .guided-meditation .ebook-text {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote .quote {
+        font-size: 20px;
+    }
+    #learn-to-meditate #how-long-to-meditate .container #ripped-block-sm {
+        height: 527px;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block {
+        top: 21%;
+    }
+    #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    #learn-to-meditate #meditation-benefits-becker .container {
+        margin-top: -11rem;
+    }
+}
+
