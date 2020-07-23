@@ -951,7 +951,12 @@
     </div>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
-  var lazyloadImages;    
+        var lazyloadImages;    
+
+        const options = {
+            treshold: 0,
+            rootMargin: "0px 0px 400px 0px"
+        };
 
   if ("IntersectionObserver" in window) {
     lazyloadImages = document.querySelectorAll(".lazy");
@@ -964,7 +969,7 @@
           imageObserver.unobserve(image);
         }
       });
-    });
+    }, options);
 
     lazyloadImages.forEach(function(image) {
       imageObserver.observe(image);
