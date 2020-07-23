@@ -8,6 +8,15 @@
   margin-bottom: 1rem;
 }
 
+#learn-to-meditate h2 {
+  font-size: 35px;
+  margin-bottom: 1;
+}
+
+#learn-to-meditate h3 {
+  margin-top: 6px;
+}
+
 #learn-to-meditate h4 {
   margin-bottom: 0;
 }
@@ -20,11 +29,6 @@
 
 #learn-to-meditate a:hover {
   color: #ef3340;
-}
-
-#learn-to-meditate h2 {
-  font-size: 35px;
-  margin-bottom: 0;
 }
 
 #learn-to-meditate p {
@@ -185,7 +189,7 @@
 #learn-to-meditate #expert-ben-decker {
   max-width: 1160px;
   margin: auto;
-  padding-top: 3rem;
+  padding-top: 1rem;
 }
 
 @media (min-width: 426px) and (max-width: 1024px) {
@@ -370,7 +374,8 @@
 }
 
 #learn-to-meditate #video .contained-text .bens-quote {
-  padding-left: 8rem;
+  width: 80%;
+  margin: 0 auto;
 }
 
 #learn-to-meditate #video .contained-text .bens-quote .quotation-marks {
@@ -639,7 +644,6 @@
 }
 
 #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote {
-  padding-left: 8rem;
   color: white;
 }
 
@@ -757,7 +761,7 @@
 }
 
 #learn-to-meditate #meditation-tips .how-to-meditate h2 {
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex {
@@ -848,6 +852,10 @@
 
 #learn-to-meditate #meditation-tips .meditate-while-moving p {
   margin-bottom: 2rem;
+}
+
+#learn-to-meditate #meditation-tips .meditate-while-moving h2 {
+  margin-bottom: 1rem;
 }
 
 #learn-to-meditate #meditation-tips .meditate-while-moving .tip-flex-section {
@@ -1087,7 +1095,7 @@
 }
 
 #learn-to-meditate #med-techniques h2 {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 #learn-to-meditate #med-techniques .pb-container-flex {
@@ -1255,10 +1263,6 @@
     padding-right: 20px;
     padding-left: 20px;
   }
-}
-
-#learn-to-meditate #med-exercises h2 {
-  margin-bottom: 0;
 }
 
 #learn-to-meditate #med-exercises .primary-paragraph {
@@ -1655,6 +1659,9 @@
 }
 
 @media (min-width: 320px) and (max-width: 425px) {
+  h3 {
+    margin-top: 6px;
+  }
   #learn-to-meditate h2 {
     font-size: 25px !important;
   }
@@ -1671,6 +1678,7 @@
   }
   #learn-to-meditate #learn-to-meditate-intro h1 span {
     font-size: 60px;
+    line-height: 55px;
   }
   #learn-to-meditate #expert-ben-decker .expert-div-flex .pr {
     padding-right: 0;
@@ -1687,9 +1695,6 @@
   }
   #learn-to-meditate #what-meditation-is {
     padding-top: 0;
-  }
-  #learn-to-meditate h2 {
-    margin-bottom: 0;
   }
   #learn-to-meditate #what-meditation-is .box .text {
     display: -webkit-box;
@@ -1738,8 +1743,6 @@
   }
   #learn-to-meditate #video .contained-text .bens-quote {
     padding-left: 0;
-    padding-right: 43px;
-    padding-left: 43px;
   }
   #learn-to-meditate #video .contained-text .bens-quote .quote {
     font-size: 20px;
@@ -1764,7 +1767,8 @@
     margin-top: -31rem;
   }
   #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote {
-    padding-left: 43px;
+    width: 80%;
+    margin: 0 auto;
   }
   #learn-to-meditate #meditation-benefits-becker .text-block .bens-quote .quote {
     font-size: 25px;
@@ -1835,8 +1839,8 @@
     font-weight: 400;
   }
   #learn-to-meditate #bens-thoughts-on-meditation .text-block .bens-quote {
-    padding-right: 43px;
-    padding-left: 43px;
+    width: 80%;
+    margin: 0 auto;
   }
   #learn-to-meditate #med-techniques .pb-container-flex .pb-container {
     padding-bottom: 18px;
@@ -1963,5 +1967,7 @@
   }
 }
 
-
+img {
+  display: block;
+}
 /*# sourceMappingURL=styles.css.map */
