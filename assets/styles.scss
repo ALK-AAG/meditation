@@ -572,10 +572,12 @@ body {
                     margin-right: 3rem;
                     @media (min-width: 320px) and (max-width: 768px)  { 
                         width: 100%;
-                        margin-right: 0;
                     }
                     .number-container {
                         margin-right: 34px;
+                        width: 34px;
+                        display: flex;
+                        flex-direction: row;
                         .number {
                             margin-right: 8px;
                             font-size: 20px;
@@ -584,6 +586,8 @@ body {
                         .pb-line {
                             border: solid .5px #ef3340;
                             opacity: 0.3;
+                            height: 18px;
+                            margin-top: 2px;
                         }
                     }
                 }
@@ -802,11 +806,12 @@ body {
                 margin-right: 3rem;
                 @media (min-width: 320px) and (max-width: 768px)  { 
                     width: 100%;
-                    padding-bottom: 30px;
                 }
                 .number-container {
-                    padding-top: 6px;
                     margin-right: 34px;
+                    width: 34px;
+                    display: flex;
+                    flex-direction: row;
                     .number {
                         margin-right: 8px;
                         font-size: 20px;
@@ -815,6 +820,8 @@ body {
                     .pb-line {
                         border: solid .5px #ef3340;
                         opacity: 0.3;
+                        height: 18px;
+                        margin-top: 2px;
                     }
                 }
             }
@@ -934,13 +941,17 @@ body {
                     }
                 }
                 .pb-container {
+                    width: 49%;
                     display: flex;
                     margin-right: 3rem;
-                    margin-bottom: 1rem;
-                    width: 100%;
+                    @media (min-width: 320px) and (max-width: 768px)  { 
+                        width: 100%;
+                    }
                     .number-container {
-                        padding-top: 6px;
                         margin-right: 34px;
+                        width: 34px;
+                        display: flex;
+                        flex-direction: row;
                         .number {
                             margin-right: 8px;
                             font-size: 20px;
@@ -949,6 +960,8 @@ body {
                         .pb-line {
                             border: solid .5px #ef3340;
                             opacity: 0.3;
+                            height: 18px;
+                            margin-top: 2px;
                         }
                     }
                 }
@@ -974,11 +987,14 @@ body {
                 width: 49%;
                 display: flex;
                 margin-right: 3rem;
-                &.modifier {
-                    margin-top: -3rem;
+                @media (min-width: 320px) and (max-width: 768px)  { 
+                    width: 100%;
                 }
                 .number-container {
                     margin-right: 34px;
+                    width: 34px;
+                    display: flex;
+                    flex-direction: row;
                     .number {
                         margin-right: 8px;
                         font-size: 20px;
@@ -987,6 +1003,8 @@ body {
                     .pb-line {
                         border: solid .5px #ef3340;
                         opacity: 0.3;
+                        height: 18px;
+                        margin-top: 2px;
                     }
                 }
             }

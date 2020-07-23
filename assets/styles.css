@@ -808,12 +808,19 @@ body {
 @media (min-width: 320px) and (max-width: 768px) {
   #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container {
     width: 100%;
-    margin-right: 0;
   }
 }
 
 #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container {
   margin-right: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container .number {
@@ -825,6 +832,8 @@ body {
 #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-container .number-container .pb-line {
   border: solid .5px #ef3340;
   opacity: 0.3;
+  height: 18px;
+  margin-top: 2px;
 }
 
 #learn-to-meditate #meditation-tips .how-to-meditate .pb-container-flex .pb-text-bottom h3 {
@@ -1140,13 +1149,19 @@ body {
 @media (min-width: 320px) and (max-width: 768px) {
   #learn-to-meditate #med-techniques .pb-container-flex .pb-container {
     width: 100%;
-    padding-bottom: 30px;
   }
 }
 
 #learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container {
-  padding-top: 6px;
   margin-right: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container .number {
@@ -1158,6 +1173,8 @@ body {
 #learn-to-meditate #med-techniques .pb-container-flex .pb-container .number-container .pb-line {
   border: solid .5px #ef3340;
   opacity: 0.3;
+  height: 18px;
+  margin-top: 2px;
 }
 
 #learn-to-meditate #med-techniques .pb-container-flex .pb-text-bottom p {
@@ -1331,17 +1348,29 @@ body {
 }
 
 #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container {
+  width: 49%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-right: 3rem;
-  margin-bottom: 1rem;
-  width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container {
+    width: 100%;
+  }
 }
 
 #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container {
-  padding-top: 6px;
   margin-right: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container .number {
@@ -1353,6 +1382,8 @@ body {
 #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-container .number-container .pb-line {
   border: solid .5px #ef3340;
   opacity: 0.3;
+  height: 18px;
+  margin-top: 2px;
 }
 
 #learn-to-meditate #med-exercises .med-exercises .pb-container-flex .pb-text-bottom a {
@@ -1384,12 +1415,22 @@ body {
   margin-right: 3rem;
 }
 
-#learn-to-meditate #med-exercises .pb-container-flex .pb-container.modifier {
-  margin-top: -3rem;
+@media (min-width: 320px) and (max-width: 768px) {
+  #learn-to-meditate #med-exercises .pb-container-flex .pb-container {
+    width: 100%;
+  }
 }
 
 #learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container {
   margin-right: 34px;
+  width: 34px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 #learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container .number {
@@ -1401,6 +1442,8 @@ body {
 #learn-to-meditate #med-exercises .pb-container-flex .pb-container .number-container .pb-line {
   border: solid .5px #ef3340;
   opacity: 0.3;
+  height: 18px;
+  margin-top: 2px;
 }
 
 #learn-to-meditate #med-exercises .pb-container-flex .pb-text-bottom h3 {
